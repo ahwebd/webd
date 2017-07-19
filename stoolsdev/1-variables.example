@@ -1,0 +1,4 @@
+#!/bin/bash -ex
+
+# docker image
+stoolsdev="ahwebd/stoolsdev"

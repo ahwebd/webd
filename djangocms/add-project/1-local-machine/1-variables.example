@@ -1,0 +1,6 @@
+#!/bin/bash -ex
+
+project="myproject"
+web_env="dev"
+
+server_ip="127.0.0.1"

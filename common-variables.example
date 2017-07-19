@@ -1,0 +1,7 @@
+#!/bin/bash -ex
+
+server_hostname="your_server_hostname"
+
+# web apps directory
+# absolute path without trailing slash
+apps_dir="/myapps"

@@ -1,0 +1,4 @@
+#!/bin/bash -ex
+
+# docker image
+postgres="postgres:9.6.3-alpine"

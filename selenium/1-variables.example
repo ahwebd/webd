@@ -1,0 +1,10 @@
+#!/bin/bash -ex
+
+# docker images
+hub="selenium/hub"
+chrome="selenium/node-chrome-debug"
+firefox="selenium/node-firefox-debug"
+
+# screen dimensions for selenium nodes
+screen_width="1368"
+screen_height="768"

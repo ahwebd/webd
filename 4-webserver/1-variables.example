@@ -1,0 +1,4 @@
+#!/bin/bash -ex
+
+# docker image
+nginx="nginx:1.13.3-alpine"

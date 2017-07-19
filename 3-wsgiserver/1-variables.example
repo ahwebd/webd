@@ -1,0 +1,4 @@
+#!/bin/bash -ex
+
+# docker image
+python="python:3.5.3" # uwsgi not compatible yet with alpine
