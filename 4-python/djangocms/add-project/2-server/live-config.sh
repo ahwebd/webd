@@ -4,7 +4,7 @@
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Get variables
 source $script_dir/../../../../common-variables
-source $script_dir/../../../3-python/1-variables
+source $script_dir/../../../1-variables
 source $script_dir/../1-variables
 
 # settings.py

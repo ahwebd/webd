@@ -4,7 +4,7 @@
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Get variables
 source $script_dir/../../../../common-variables
-source $script_dir/../../../3-python/1-variables
+source $script_dir/../../../1-variables
 source $script_dir/../1-variables
 
 # create database and its user
@@ -68,5 +68,4 @@ sed -i "s/project_venv/$project_venv/g" $apps_dir/$web_env/$project/uwsgi_$web_e
 sudo ln -s $apps_dir/$web_env/$project/uwsgi_$web_env.$project.ini /var/lib/docker/volumes/uwsgi_vassals/_data
 
 # restart servers
-docker stop $(docker ps -f name=^/wsgiserver. -q)
-docker stop $(docker ps -f name=^/webserver. -q)
+docker stop $(docker ps -f name=^/wsgiserver. -q) $(docker ps -f name=^/webserver. -q)
